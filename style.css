@@ -1,0 +1,223 @@
+@font-face{
+	font-family: "Sans Serif";
+
+	src: url("fonts/helvetica.otf");
+}
+html{
+	font-family: "Sans Serif", helvetica;
+	background-color: white;
+
+	padding: 0;
+	margin: 0;
+
+	overflow-x: hidden;
+}
+.partOne{
+	width: 100%;
+	height: 100%;
+}
+.mapFr{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+
+	height: 100%;
+
+	opacity: 0;
+
+	transition: all 1s linear;
+}
+.boss{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+
+	font-size: 3em;
+
+	opacity: 0;
+
+	transition: all 1s linear;
+}
+.strin{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+
+	transform: translate(-50%,-50%) rotate(90deg);
+
+	font-size: 3em;
+
+	opacity: 0;
+
+	transition: all 1s linear;
+}
+.left,.right{
+	position: absolute;
+
+	width: 3%;
+	height: 15%;
+
+	padding: 0 1% 0 1%;
+
+	font-size: 4em;
+
+	top: 135%;
+
+	z-index: 5;
+
+	transition: all 1s ease;
+}
+.left{
+	left: 1%;
+}
+.right{
+	left: 94%;
+}
+.left:hover,.right:hover{
+	color: white;
+	background-color: black;
+}
+.partTwo{
+	position: absolute;
+	top: 100%;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: white;
+
+	z-index: 4;
+}
+.joul{
+	width: 35%;
+	height: 60%;
+
+	position: relative;
+	top: 45%;
+	left: 75%;
+
+	transform: translate(-50%,-50%);
+}
+.joulB{
+	position: relative;
+	top: -50%;
+	left: 10%;
+	font-size: 4em;
+}
+.joulM{
+	position: relative;
+	width: 45%;
+	top: -35%;
+	left: 33%;
+	font-size: 1.5em;
+	transform: translate(-50%,-50%);
+}
+.partThree{
+	position: absolute;
+	top: 100%;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: white;
+
+	z-index: 3;
+}
+.loui{
+	width: 30%;
+	height: 90%;
+
+	position: relative;
+	top: 50%;
+	left: 25%;
+
+	transform: translate(-50%,-50%);
+}
+.louiB{
+	position: relative;
+	top: -90%;
+	left: 50%;
+	font-size: 4em;
+}
+.louiM{
+	position: relative;
+	width: 50%;
+	top: -85%;
+	left: 70%;
+	font-size: 1.5em;
+	transform: translate(-50%,-50%);
+}
+.partFour{
+	position: absolute;
+	top: 100%;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: white;
+
+	z-index: 2;
+}
+.coco{
+	width: 43%;
+	height: 60%;
+
+	position: relative;
+	top: 50%;
+	left: 77%;
+
+	transform: translate(-50%,-50%);
+}
+.cocoB{
+	position: relative;
+	top: -55%;
+	left: 10%;
+	font-size: 4em;
+}
+.cocoM{
+	position: relative;
+	width: 40%;
+	top: -28%;
+	left: 30%;
+	font-size: 1.3em;
+	transform: translate(-50%,-50%);
+}
+.partFive{
+	position: absolute;
+	top: 100%;
+
+	width: 100%;
+	height: 100%;
+
+	background-color: white;
+
+	z-index: 1;
+}
+.dior{
+	width: 30%;
+	height: 70%;
+
+	position: relative;
+	top: 50%;
+	left: 25%;
+
+	transform: translate(-50%,-50%);
+}
+.diorB{
+	position: relative;
+	top: -60%;
+	left: 50%;
+	font-size: 4em;
+}
+.diorM{
+	position: relative;
+	width: 50%;
+	top: -50%;
+	left: 70%;
+	font-size: 1.5em;
+	transform: translate(-50%,-50%);
+}
