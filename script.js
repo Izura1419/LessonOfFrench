@@ -61,6 +61,12 @@ function clickR(){
 	if (progress == 60){
 		partFour.style.display = "none"
 	}
+	if (progress == 80){
+		progress = 0
+		partTwo.style.display = "inline-block"
+		partThree.style.display = "inline-block"
+		partFour.style.display = "inline-block"
+	}
 }
 function clickLe(){
 	progress = progress - 20;
@@ -72,5 +78,8 @@ function clickLe(){
 	}
 	if (progress == 40){
 		partFour.style.display = "inline-block"
+	}
+	if (progress == -20){
+		progress = 0
 	}
 }
